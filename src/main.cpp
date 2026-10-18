@@ -20,11 +20,9 @@ int main() {
 
     const float tileSize = 20.f;
 
-    // --- SCHRIFTART UND TEXT-ELEMENTE (SFML 3 Syntax) ---
+    // --- SCHRIFTART UND TEXT-ELEMENTE ---
     // Versucht eine Systemschriftart zu laden (unter Windows "arial.ttf" in C:/Windows/Fonts/)
     // Falls das nicht klappt, lege eine arial.ttf direkt in dein Projektverzeichnis.
-    // --- SCHRIFTART UND TEXT-ELEMENTE (SFML 3 Syntax) ---
-    // --- SCHRIFTART UND TEXT-ELEMENTE ---
     sf::Font font;
     if (!font.openFromFile("C:/Windows/Fonts/arial.ttf")) {
         if (!font.openFromFile("arial.ttf")) {
